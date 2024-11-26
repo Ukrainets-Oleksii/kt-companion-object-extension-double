@@ -1,7 +1,7 @@
 package mate.academy
 
 fun Double.Companion.printClassName() {
-    print("Class name: ${this::class.qualifiedName}\n")
+    println("Class name: ${this::class.qualifiedName}")
 }
 
 fun main() {
